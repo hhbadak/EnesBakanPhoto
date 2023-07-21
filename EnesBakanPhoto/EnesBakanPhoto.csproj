@@ -127,9 +127,13 @@
     <Content Include="UserPanel\Assets\img\Weddingcoverimage8.jpg" />
     <Content Include="UserPanel\Assets\img\Weddingcoverimage9.jpg" />
     <Content Include="UserPanel\Assets\Video\ATELIER BLANCHE Fashion Film 2021  Directed by VIVIENNE  TAMAS_1080p.mp4" />
+    <Content Include="UserPanel\Assets\Video\Beymen 2018 1080p.mp4" />
+    <Content Include="UserPanel\Assets\Video\Beymendd 2018 .mp4" />
+    <Content Include="UserPanel\Assets\Video\COLINS JEANS FEST 2022.mp4" />
     <Content Include="UserPanel\Assets\Video\DSDAMATSS20SMOKIN2_1080p.mp4" />
     <Content Include="UserPanel\Assets\Video\ELLESTYLEAWARDS2023.mp4" />
     <Content Include="UserPanel\Assets\Video\L%27Oréal Paris x Balmain - Campagne Color Riche cutter.com%29.mp4" />
+    <Content Include="UserPanel\Assets\Video\NetWork 2015.mp4" />
     <Content Include="UserPanel\Assets\Video\Nike AIRQUARTERS_1080p cutter.com%29.mp4" />
     <Content Include="UserPanel\EnesBakan.aspx" />
     <Content Include="UserPanel\FilmPage.aspx" />

@@ -7,7 +7,6 @@
         <div class="EnesBakanPage">
             <div class="row mb-5" >
                 <div class="col-md-3 p-0 border-0 mt-1"style="max-height:499px" >
-                    <%--hacııııııııııııııı--%>
                      <%--img'de src yerine Eval() ile bağla--%>
                     <%--h6 içinde asp:literal kullan--%>
                     
