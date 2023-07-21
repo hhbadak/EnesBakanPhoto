@@ -1,0 +1,23 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+header .link {
+    color: black;
+    font-size: 10pt;
+    text-indent: 10px;
+    letter-spacing: 2px;
+    font-weight: 900
+}
+
+    header .link:hover {
+        color: #bdbdbd
+    }
+
+@media (max-width: 585px) {
+    header .link {
+        font-size: 7pt !important;
+        font-weight: 900
+    }
+}
