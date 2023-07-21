@@ -5,18 +5,18 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">
         <div class="EnesBakanPage">
-            <div class="row mb-5" style="max-height:600px">
-                <div class="col-md-3 p-0 border-0" >
+            <div class="row mb-5" >
+                <div class="col-md-3 p-0 border-0 mt-1"style="max-height:499px" >
                     <%--1.sıra resim bir--%>
                     <img src="Assets/img/coverimage%20(1).jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
                 </div>
-                <div class="col-md-6 p-0 border-0" style="max-height:599px">
-                    <video autoplay muted loop class="h-100">
+                <div class="col-md-6 p-0 border-0">
+                    <video autoplay muted loop class="h-100 w-100">
                         <%--1.Sıra Video--%>
                         <source src="Assets/Video/ELLESTYLEAWARDS2023.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="col-md-3 p-0 border-0" style="max-height:599px" >
+                <div class="col-md-3 p-0 border-0 mt-1"style="max-height:499px" >
                     <%--1.sıra resim iki--%>
                     <img src="Assets/img/coverimage.jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
                 </div>
