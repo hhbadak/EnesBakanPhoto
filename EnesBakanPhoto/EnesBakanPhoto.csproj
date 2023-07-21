@@ -91,7 +91,14 @@
     <Content Include="UserPanel\Assets\bootstrap-5.3.0-alpha3-dist\js\bootstrap.min.js" />
     <Content Include="UserPanel\Assets\Css\Css.css" />
     <Content Include="UserPanel\Assets\img\coverimage %281%29.jpg" />
+    <Content Include="UserPanel\Assets\img\coverimage %282%29.jpg" />
+    <Content Include="UserPanel\Assets\img\coverimage %283%29.jpg" />
+    <Content Include="UserPanel\Assets\img\coverimage %284%29.jpg" />
+    <Content Include="UserPanel\Assets\img\coverimage %285%29.jpg" />
+    <Content Include="UserPanel\Assets\img\coverimage %286%29.jpg" />
     <Content Include="UserPanel\Assets\img\coverimage.jpg" />
+    <Content Include="UserPanel\Assets\Video\ATELIER BLANCHE Fashion Film 2021  Directed by VIVIENNE  TAMAS_1080p.mp4" />
+    <Content Include="UserPanel\Assets\Video\DSDAMATSS20SMOKIN2_1080p.mp4" />
     <Content Include="UserPanel\Assets\Video\ELLESTYLEAWARDS2023.mp4" />
     <Content Include="UserPanel\EnesBakan.aspx" />
     <Content Include="Web.config" />
