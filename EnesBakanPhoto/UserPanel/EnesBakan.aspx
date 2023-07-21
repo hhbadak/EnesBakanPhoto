@@ -7,8 +7,13 @@
         <div class="EnesBakanPage">
             <div class="row mb-5" >
                 <div class="col-md-3 p-0 border-0 mt-1"style="max-height:499px" >
+
+                     <%--img'de src yerine Eval() ile bağla--%>
+                    <%--h6 içinde asp:literal kullan--%>
+                    
                     <%--1.sıra resim bir--%>
                     <img src="Assets/img/coverimage%20(1).jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
+                    <h6>ELLE</h6>
                 </div>
                 <div class="col-md-6 p-0 border-0">
                     <video autoplay muted loop class="h-100 w-100">

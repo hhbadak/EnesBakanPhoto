@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
+h6 {
+    font-family: 'EngraversGothic';
+    padding:3px;
+}
 
 header .link {
     color: black;
-    font-size: 10pt;
+    font-size: 9pt;
     text-indent: 10px;
     letter-spacing: 2px;
     font-weight: 900
@@ -15,9 +19,10 @@ header .link {
         color: #bdbdbd
     }
 
-@media (max-width: 585px) {
+@media (max-width: 800px) {
     header .link {
-        font-size: 7pt !important;
+        padding:0px!important;
+        font-size: 6pt !important;
         font-weight: 900
     }
     .EnesBakanPage .deneme {
