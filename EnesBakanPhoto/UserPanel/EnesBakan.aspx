@@ -7,14 +7,17 @@
         <div class="EnesBakanPage">
             <div class="row">
                 <div class="col-md-3 p-0 border-0" style="max-height: 504px">
+                    <%--1.sıra resim bir--%>
                     <img src="Assets/img/coverimage%20(1).jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
                 </div>
                 <div class="col-md-6 p-0 border-0">
                     <video autoplay muted class="w-100">
+                        <%--1.Sıra Video--%>
                         <source src="Assets/Video/ELLESTYLEAWARDS2023.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-md-3 p-0 border-0" style="max-height: 504px">
+                     <%--1.sıra resim iki--%>
                     <img src="Assets/img/coverimage.jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
                 </div>
             </div>
