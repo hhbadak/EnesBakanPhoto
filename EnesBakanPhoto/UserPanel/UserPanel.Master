@@ -11,36 +11,37 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <header style="height: 1500px; font-family: 'EngraversGothic'">
-            <div class="container-fluid bg-light opacity-75 " style="position: fixed">
-                <nav class="navbar navbar-expand navbar-light bg-light px-5">
-                    <div class="row">
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link link" href="#">ENES BAKAN</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link link" href="#">Wedding</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#">Post Production</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link link" href="#">INFO</a>
-                                </li>
-                            </ul>
-                        </div>
+    <header style="font-family: 'EngraversGothic'">
+        <div class="container-fluid bg-light opacity-75 " style="position: fixed">
+            <nav class="navbar navbar-expand navbar-light bg-light px-5">
+                <div class="row">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link link" href="#">ENES BAKAN</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link link" href="#">Wedding</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">Post Production</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link" href="#">INFO</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
-        </header>
-        <div class="container">
+                </div>
+            </nav>
+        </div>
+        <div style="clear: both"></div>
+    </header>
+    <div class="container-fluid p-5">
+        <div style="padding-top: 70px" class="p-3">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-    </form>
+    </div>
     <script src="Assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
     <script src="Assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
 </body>

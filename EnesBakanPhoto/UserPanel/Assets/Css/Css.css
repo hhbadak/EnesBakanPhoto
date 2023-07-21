@@ -20,4 +20,8 @@ header .link {
         font-size: 7pt !important;
         font-weight: 900
     }
+    .EnesBakanPage .deneme {
+        height: 200px;
+        width:100%;
+    }
 }

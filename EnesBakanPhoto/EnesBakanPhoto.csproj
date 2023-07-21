@@ -90,6 +90,9 @@
     <Content Include="UserPanel\Assets\bootstrap-5.3.0-alpha3-dist\js\bootstrap.js" />
     <Content Include="UserPanel\Assets\bootstrap-5.3.0-alpha3-dist\js\bootstrap.min.js" />
     <Content Include="UserPanel\Assets\Css\Css.css" />
+    <Content Include="UserPanel\Assets\img\coverimage %281%29.jpg" />
+    <Content Include="UserPanel\Assets\img\coverimage.jpg" />
+    <Content Include="UserPanel\Assets\Video\ELLESTYLEAWARDS2023.mp4" />
     <Content Include="UserPanel\EnesBakan.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
