@@ -145,13 +145,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-<<<<<<< HEAD
-  <ItemGroup>
-    <Folder Include="AdminPanel\" />
-  </ItemGroup>
-=======
   <ItemGroup />
->>>>>>> 075963ad637887a08b9e5986d196921e7e527ee0
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
