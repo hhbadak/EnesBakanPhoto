@@ -5,18 +5,18 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">
         <div class="EnesBakanPage">
-            <div class="row mb-5">
-                <div class="col-md-3 p-0 border-0" style="max-height: 499px">
+            <div class="row mb-5" style="max-height:600px">
+                <div class="col-md-3 p-0 border-0" >
                     <%--1.sıra resim bir--%>
                     <img src="Assets/img/coverimage%20(1).jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
                 </div>
-                <div class="col-md-6 p-0 border-0">
-                    <video autoplay muted loop class="w-100">
+                <div class="col-md-6 p-0 border-0" style="max-height:599px">
+                    <video autoplay muted loop class="h-100">
                         <%--1.Sıra Video--%>
                         <source src="Assets/Video/ELLESTYLEAWARDS2023.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="col-md-3 p-0 border-0" style="max-height: 499px">
+                <div class="col-md-3 p-0 border-0" style="max-height:599px" >
                     <%--1.sıra resim iki--%>
                     <img src="Assets/img/coverimage.jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" />
                 </div>
@@ -43,31 +43,71 @@
                     <img src="Assets/img/coverimage%20(4).jpg" class="img-thumbnail border-0 p-0 rounded-0" />
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 mb-2">
                 <div class="col-md-6 p-0 border-0">
                     <video autoplay muted loop class="w-100 h-100">
                         <%--4.Sıra Video--%>
                         <source src="Assets/Video/ATELIER BLANCHE Fashion Film 2021  Directed by VIVIENNE  TAMAS_1080p.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="col-md-3 p-0 border-0" >
+                <div class="col-md-3 p-0 border-0">
                     <%--4.Sıra resim bir--%>
                     <img src="Assets/img/coverimage (5).jpg" class="img-thumbnail border-0 p-0 rounded-0" />
                 </div>
-                <div class="col-md-3 p-0 border-0" >
-                    <%--4.Sıra resim bir--%>
+                <div class="col-md-3 p-0 border-0">
+                    <%--4.Sıra resim iki--%>
                     <img src="Assets/img/coverimage (6).jpg" class="img-thumbnail border-0 p-0 rounded-0" />
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-
+            <div class="row mt-5">
+                <div class="col-md-6  p-0 border-0">
+                    <video autoplay muted loop class="w-100 h-100">
+                        <%--5.Sıra Video--%>
+                        <source src="Assets/Video/Nike AIRQUARTERS_1080p cutter.com).mp4" type="video/mp4">
+                    </video>
                 </div>
-                <div class="col-md-4">
-
+                <div class="col-md-4  p-0 border-0 mt-1">
+                    <%--5.Sıra resim bir--%>
+                    <img src="Assets/img/coverimage%20(7).jpg" class="img-thumbnail border-0 p-0 rounded-0 h-100" />
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2  p-0 border-0 mt-1">
+                    <%--5.Sıra resim iki--%>
+                    <img src="Assets/img/coverimage%20(8).jpg" class="img-thumbnail border-0 p-0 rounded-0 h-100" />
+                </div>
 
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3 p-0 border-0">
+                    <%--6.Sıra resim bir--%>
+                    <img src="Assets/img/coverimage%20(9).jpg" class="img-thumbnail border-0 p-0 rounded-0 h-100" />
+                </div>
+                <div class="col-md-3 p-0 border-0">
+                    <%--6.Sıra resim iki--%>
+                    <img src="Assets/img/coverimage%20(10).jpg" class="img-thumbnail border-0 p-0 rounded-0 h-100" />
+                </div>
+                <div class="col-md-3 p-0 border-0">
+                    <%--6.Sıra resim üç--%>
+                    <img src="Assets/img/coverimage%20(11).jpg" class="img-thumbnail border-0 p-0 rounded-0 h-100" />
+                </div>
+                <div class="col-md-3 p-0 border-0">
+                    <%--6.Sıra resim dört--%>
+                    <img src="Assets/img/coverimage%20(12).jpg" class="img-thumbnail border-0 p-0 rounded-0 h-100" />
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 p-0 border-0 ">
+                     <video autoplay muted loop class="w-100 h-100">
+                        <%--7.Sıra Video--%>
+                        <source src="Assets/Video/L'Oréal Paris x Balmain - Campagne Color Riche cutter.com).mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-2 p-0 border-0">
+                     <%--7.Sıra resim bir--%>
+                    <img src="Assets/img/coverimage%20(13).jpg"class="img-thumbnail border-0 p-0 rounded-0 h-100" />
+                </div>
+                <div class="col-md-4 p-0 border-0">
+                     <%--7.Sıra resim iki--%>
+                    <img src="Assets/img/coverimage%20(14).jpg"class="img-thumbnail border-0 p-0 rounded-0 h-100" />
                 </div>
             </div>
         </div>
