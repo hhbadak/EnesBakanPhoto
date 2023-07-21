@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/UserPanel/UserPanel.Master" AutoEventWireup="true" CodeBehind="EnesBakan.aspx.cs" Inherits="EnesBakanPhoto.UserPanel.EnesBakan" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
@@ -14,6 +15,9 @@
                     <video autoplay muted class="w-100">
                         <%--1.Sıra video--%>
                         <source src="Assets/Video/ELLESTYLEAWARDS2023.mp4" type="video/mp4">
+=======
+﻿B
+>>>>>>> 075963ad637887a08b9e5986d196921e7e527ee0
                     </video>
                 </div>
                 <div class="col-md-3 p-0 border-0" style="max-height: 504px">
