@@ -5,15 +5,18 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="Assets/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <script src="Assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+    <script src="Assets/bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
