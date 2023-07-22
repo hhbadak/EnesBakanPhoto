@@ -127,6 +127,7 @@
     <Content Include="UserPanel\Assets\img\Weddingcoverimage7.jpg" />
     <Content Include="UserPanel\Assets\img\Weddingcoverimage8.jpg" />
     <Content Include="UserPanel\Assets\img\Weddingcoverimage9.jpg" />
+    <Content Include="UserPanel\Assets\jquery-3.6.4.min.js" />
     <Content Include="UserPanel\Assets\Video\ATELIER BLANCHE Fashion Film 2021  Directed by VIVIENNE  TAMAS_1080p.mp4" />
     <Content Include="UserPanel\Assets\Video\Athena  Arsız Men of the Year 2016_v720P.mp4" />
     <Content Include="UserPanel\Assets\Video\Beymen  The Luxury .mp4" />
@@ -140,6 +141,7 @@
     <Content Include="UserPanel\Assets\Video\Nike AIRQUARTERS_1080p cutter.com%29.mp4" />
     <Content Include="UserPanel\EnesBakan.aspx" />
     <Content Include="UserPanel\FilmPage.aspx" />
+    <Content Include="UserPanel\InfoPage.aspx" />
     <Content Include="UserPanel\Wedding.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -179,6 +181,13 @@
     </Compile>
     <Compile Include="UserPanel\FilmPage.aspx.designer.cs">
       <DependentUpon>FilmPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel\InfoPage.aspx.cs">
+      <DependentUpon>InfoPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPanel\InfoPage.aspx.designer.cs">
+      <DependentUpon>InfoPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\UserPanel.Master.cs">
       <DependentUpon>UserPanel.Master</DependentUpon>
