@@ -67,17 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Content Include="EnesBakanPlace\HomePage.aspx" />
-    <Content Include="InfoPage.aspx" />
-=======
-    <Content Include="EnesBakanPlace\Adversiting.aspx" />
-    <Content Include="EnesBakanPlace\Assets\EnesBakanPlace.css" />
-    <Content Include="EnesBakanPlace\Film.aspx" />
-    <Content Include="EnesBakanPlace\Galery.aspx" />
-    <Content Include="EnesBakanPlace\PostProduction.aspx" />
-    <Content Include="EnesBakanPlace\Wedding.aspx" />
->>>>>>> 18dd728580c9355826c807f1004f1d8b7bf767c6
     <Content Include="UserPanel\ADVERTISING.aspx" />
     <Content Include="UserPanel\Assets\bootstrap-5.3.0-alpha3-dist\css\bootstrap-grid.css" />
     <Content Include="UserPanel\Assets\bootstrap-5.3.0-alpha3-dist\css\bootstrap-grid.min.css" />
@@ -137,7 +127,6 @@
     <Content Include="UserPanel\Assets\img\Weddingcoverimage7.jpg" />
     <Content Include="UserPanel\Assets\img\Weddingcoverimage8.jpg" />
     <Content Include="UserPanel\Assets\img\Weddingcoverimage9.jpg" />
-    <Content Include="UserPanel\Assets\jquery-3.6.4.min.js" />
     <Content Include="UserPanel\Assets\Video\ATELIER BLANCHE Fashion Film 2021  Directed by VIVIENNE  TAMAS_1080p.mp4" />
     <Content Include="UserPanel\Assets\Video\Athena  Arsız Men of the Year 2016_v720P.mp4" />
     <Content Include="UserPanel\Assets\Video\Beymen  The Luxury .mp4" />
@@ -155,13 +144,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EnesBakanPlace\Adversiting.aspx.cs">
-      <DependentUpon>Adversiting.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EnesBakanPlace\Adversiting.aspx.designer.cs">
-      <DependentUpon>Adversiting.aspx</DependentUpon>
-    </Compile>
     <Compile Include="EnesBakanPlace\EnesBakanLayout.Master.cs">
       <DependentUpon>EnesBakanLayout.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -169,40 +151,12 @@
     <Compile Include="EnesBakanPlace\EnesBakanLayout.Master.designer.cs">
       <DependentUpon>EnesBakanLayout.Master</DependentUpon>
     </Compile>
-    <Compile Include="EnesBakanPlace\Film.aspx.cs">
-      <DependentUpon>Film.aspx</DependentUpon>
+    <Compile Include="EnesBakanPlace\HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="EnesBakanPlace\Film.aspx.designer.cs">
-      <DependentUpon>Film.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EnesBakanPlace\Galery.aspx.cs">
-      <DependentUpon>Galery.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EnesBakanPlace\Galery.aspx.designer.cs">
-      <DependentUpon>Galery.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EnesBakanPlace\PostProduction.aspx.cs">
-      <DependentUpon>PostProduction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EnesBakanPlace\PostProduction.aspx.designer.cs">
-      <DependentUpon>PostProduction.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EnesBakanPlace\Wedding.aspx.cs">
-      <DependentUpon>Wedding.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EnesBakanPlace\Wedding.aspx.designer.cs">
-      <DependentUpon>Wedding.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="InfoPage.aspx.cs">
-      <DependentUpon>InfoPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="InfoPage.aspx.designer.cs">
-      <DependentUpon>InfoPage.aspx</DependentUpon>
+    <Compile Include="EnesBakanPlace\HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserPanel\ADVERTISING.aspx.cs">
