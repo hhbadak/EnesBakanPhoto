@@ -154,6 +154,7 @@
     <Content Include="UserPanel\EnesBakan.aspx" />
     <Content Include="UserPanel\FilmPage.aspx" />
     <Content Include="UserPanel\InfoPage.aspx" />
+    <Content Include="UserPanel\PostProduction.aspx" />
     <Content Include="UserPanel\Wedding.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="UserPanel\InfoPage.aspx.designer.cs">
       <DependentUpon>InfoPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserPanel\PostProduction.aspx.cs">
+      <DependentUpon>PostProduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserPanel\PostProduction.aspx.designer.cs">
+      <DependentUpon>PostProduction.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserPanel\UserPanel.Master.cs">
       <DependentUpon>UserPanel.Master</DependentUpon>

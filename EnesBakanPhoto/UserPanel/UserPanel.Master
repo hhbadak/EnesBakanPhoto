@@ -34,21 +34,37 @@
                             </li>
                             <li class="nav-item">
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                    INFO
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdropp">
+                                    <h6 class="link">INFO</h6>
                                 </button>
                                 <!-- Modal -->
-                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal fade" id="staticBackdropp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabell" aria-hidden="true">
                                     <div class="modal-dialog modal-fullscreen">
                                         <div class="modal-content">
                                             <div class="modal-header">
-                                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
-                                            <div class="modal-body">
-                                                adadasd
+                                            <div class="modal-body mt-5">
+                                                <div class="container mt-5">
+                                                    <div class="row mt-5">
+                                                        <div class="col-sm-6 mt-5">
+                                                            <h2>REPRESENTATION</h2>
+                                                            <h4>ARTANDIST</h4>
+                                                            <p>
+                                                               HOŞNUDİYE MAHALLESİ İSMET İNÖNÜ 1.CADDE NO11 DAİRE 31 TEPEBAŞI/ESKİŞEHİR <br /> TEL:0546 767 10 49 <br />TEL: 0222 222 22 22 <br /> INFO@ARTANDIST.COMWWW.ARTANDIST.COM
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-6 mt-5">
+                                                             <h2>SYNDICATION</h2>
+                                                            <h4>BLAUBLUT EDITION</h4>
+                                                            <p>
+                                                               RUPPRECHTSTRASSE <br /> 2580636 <br /> MÜNCHEN <br /> GERMAN P +49.8989057950 <br />
+                                                                F +49.89890579520
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>

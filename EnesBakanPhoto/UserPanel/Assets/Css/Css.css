@@ -30,3 +30,7 @@ header .link {
         width:100%;
     }
 }
+.modal-backdrop.in {
+    position: relative;
+    z-index: 100;
+}
