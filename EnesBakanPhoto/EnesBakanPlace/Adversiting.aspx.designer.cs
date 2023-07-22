@@ -11,7 +11,7 @@ namespace EnesBakanPhoto.EnesBakanPlace
 {
 
 
-    public partial class HomePage
+    public partial class Adversiting
     {
     }
 }
