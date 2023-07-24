@@ -146,5 +146,49 @@ namespace DataAccessLayer
             }
             finally { con.Close(); }
         }
+        public List<Galery> listEnesBakan()
+        {
+            List<Galery> galeries = new List<Galery>();
+            try
+            {
+                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 5";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Galery model = new Galery();
+
+                    model.ID = reader.GetInt32(0);
+                    model.media = reader.GetString(1);
+                    model.category_ID = reader.GetInt32(2);
+                    galeries.Add(model);
+                }
+                return galeries;
+            }
+            finally { con.Close(); }
+        }
+        public List<Galery> listAllMedia()
+        {
+            List<Galery> galeries = new List<Galery>();
+            try
+            {
+                cmd.CommandText = "SELECT Media, Title FROM Galery";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Galery model = new Galery();
+
+                    model.ID = reader.GetInt32(0);
+                    model.media = reader.GetString(1);
+                    model.category_ID = reader.GetInt32(2);
+                    galeries.Add(model);
+                }
+                return galeries;
+            }
+            finally { con.Close(); }
+        }
     }
 }

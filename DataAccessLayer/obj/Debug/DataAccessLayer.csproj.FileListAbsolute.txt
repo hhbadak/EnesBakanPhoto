@@ -4,3 +4,9 @@ C:\Users\HsnHs\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug
 C:\Users\HsnHs\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\HsnHs\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\HsnHs\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
