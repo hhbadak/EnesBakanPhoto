@@ -20,7 +20,7 @@ namespace DataAccessLayer
         {
             try
             {
-                cmd.CommandText = "UPDATE Galery SET Media WHERE ID = @id";
+                cmd.CommandText = "UPDATE Galery SET Media, Title WHERE ID = @id";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@id", model.ID);
                 con.Open();
@@ -60,7 +60,7 @@ namespace DataAccessLayer
             List<Galery> galeries = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media FROM Galery WHERE ID = 1";
+                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 1";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -83,7 +83,7 @@ namespace DataAccessLayer
             List<Galery> galeries = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media FROM Galery WHERE ID = 2";
+                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 2";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -106,7 +106,7 @@ namespace DataAccessLayer
             List<Galery> galeries = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media FROM Galery WHERE ID = 3";
+                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 3";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -129,7 +129,7 @@ namespace DataAccessLayer
             List<Galery> galeries = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media FROM Galery WHERE ID = 4";
+                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 4";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
