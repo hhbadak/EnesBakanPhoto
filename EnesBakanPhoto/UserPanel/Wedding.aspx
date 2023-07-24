@@ -8,7 +8,8 @@
 
             <div class="row mt-2 mb-5">
                 <div class="col-md-4  p-0 border-0">
-                    <%--img'de src yerine Eval() ile bağla--%>
+
+                    <%--img'de src yerine Eval() ile bağlarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr--%>
                     <%--1.satır resim 1--%>
                     <a href="WeddingPageRead.aspx"><img src="Assets/img/Weddingcoverimage.jpg" class="img-thumbnail border-0 p-0 rounded-0 w-100 h-100" /></a>
                     <h6>ELLE</h6>
