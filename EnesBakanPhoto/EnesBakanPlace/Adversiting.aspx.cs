@@ -16,6 +16,7 @@ namespace EnesBakanPhoto.EnesBakanPlace
         {
             rptr_card.DataSource = dm.listAdversiting();
             rptr_card.DataBind();
+            //kod bu kadar
         }
     }
 }
