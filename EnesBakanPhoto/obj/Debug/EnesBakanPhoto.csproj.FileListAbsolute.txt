@@ -354,3 +354,5 @@ C:\Users\rampa\Downloads\EnesBakanPhoto-184f05de97751f768f00b80382cd5da06a9ac6dc
 C:\Users\rampa\Downloads\EnesBakanPhoto-184f05de97751f768f00b80382cd5da06a9ac6dc\EnesBakanPhoto\obj\Debug\EnesBakanPhoto.pdb
 C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\EnesBakanPhoto\bin\DataAccessLayer.dll
 C:\Users\PC\OneDrive\Belgeler\GitHub\EnesBakanPhoto\EnesBakanPhoto\bin\DataAccessLayer.pdb
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\EnesBakanPhoto\EnesBakanPhoto\bin\DataAccessLayer.dll
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\EnesBakanPhoto\EnesBakanPhoto\bin\DataAccessLayer.pdb
