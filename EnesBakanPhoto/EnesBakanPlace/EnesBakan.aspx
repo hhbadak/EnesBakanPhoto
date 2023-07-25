@@ -1,12 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EnesBakanPlace/EnesBakanLayout.Master" AutoEventWireup="true" CodeBehind="Film.aspx.cs" Inherits="EnesBakanPhoto.EnesBakanPlace.Film" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EnesBakanPlace/EnesBakanLayout.Master" AutoEventWireup="true" CodeBehind="EnesBakan.aspx.cs" Inherits="EnesBakanPhoto.EnesBakanPlace.EnesBakan" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-      <div class="row">
+     <div class="row">
         <asp:Repeater runat="server" ID="rptr_card">
             <ItemTemplate>
 
-                <div class="col-md-4 mb-3">
+                <div class="col-md-3 mb-3">
                     <div class="card">
                         <img class="card-img-top" height="400" src="../UserPanel/Assets/img/<%# Eval("media") %>" alt="<%# Eval("title") %>">
                         <div class="card-body">

@@ -3,19 +3,23 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:Repeater runat="server" ID="rptr_card">
-        <ItemTemplate>
-            <div class="row">
-                <div class="col-md-4">
+
+    <div class="row">
+        <asp:Repeater runat="server" ID="rptr_card">
+            <ItemTemplate>
+
+                <div class="col-md-3 mb-3">
                     <div class="card">
-                        <img class="card-img-top" src="..." alt="">
+                        <img class="card-img-top" height="400" src="../UserPanel/Assets/img/<%# Eval("media") %>" alt="<%# Eval("title") %>">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title"><%# Eval("title") %></h5>
+                            <a href='UpdatePage.aspx?gid=<%# Eval("ID") %>' class="btn btn-primary">Düzenle</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </ItemTemplate>
-    </asp:Repeater>
+
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+
 </asp:Content>

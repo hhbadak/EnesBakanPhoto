@@ -61,7 +61,7 @@ namespace DataAccessLayer
             try
             {
                 Galery g = new Galery();
-                cmd.CommandText = "SELECT * FROM Galery WHERE ID = @id";
+                cmd.CommandText = "SELECT ID, Media, Title, CategoriesID FROM Galery WHERE ID = @id";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("id", id);
                 con.Open();
@@ -86,7 +86,7 @@ namespace DataAccessLayer
             List<Galery> Galery = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 1";
+                cmd.CommandText = "SELECT ID, Media, Title, CategoriesID FROM Galery WHERE CategoriesID = 1";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -96,7 +96,8 @@ namespace DataAccessLayer
 
                     model.ID = reader.GetInt32(0);
                     model.media = reader.GetString(1);
-                    model.category_ID = reader.GetInt32(2);
+                    model.title = reader.GetString(2);
+                    model.category_ID = reader.GetInt32(3);
                     Galery.Add(model);
                 }
                 return Galery;
@@ -109,7 +110,7 @@ namespace DataAccessLayer
             List<Galery> Galery = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT ID, Media, Title, CategoryID FROM Galery WHERE ID = 2";
+                cmd.CommandText = "SELECT ID, Media, Title, CategoriesID FROM Galery WHERE CategoriesID = 2";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -133,17 +134,18 @@ namespace DataAccessLayer
             List<Galery> Galery = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 3";
+                cmd.CommandText = "SELECT ID, Media, Title, CategoriesID FROM Galery WHERE CategoriesID = 3";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
+
                 while (reader.Read())
                 {
                     Galery model = new Galery();
-
                     model.ID = reader.GetInt32(0);
                     model.media = reader.GetString(1);
-                    model.category_ID = reader.GetInt32(2);
+                    model.title = reader.GetString(2);
+                    model.category_ID = reader.GetInt32(3);
                     Galery.Add(model);
                 }
                 return Galery;
@@ -156,7 +158,7 @@ namespace DataAccessLayer
             List<Galery> Galery = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 4";
+                cmd.CommandText = "SELECT ID, Media, Title, CategoriesID FROM Galery WHERE CategoriesID = 4";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -166,7 +168,8 @@ namespace DataAccessLayer
 
                     model.ID = reader.GetInt32(0);
                     model.media = reader.GetString(1);
-                    model.category_ID = reader.GetInt32(2);
+                    model.title = reader.GetString(2);
+                    model.category_ID = reader.GetInt32(3);
                     Galery.Add(model);
                 }
                 return Galery;
@@ -178,7 +181,7 @@ namespace DataAccessLayer
             List<Galery> Galery = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media, Title FROM Galery WHERE ID = 5";
+                cmd.CommandText = "SELECT ID, Media, Title, CategoriesID FROM Galery WHERE CategoriesID = 5";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -188,7 +191,8 @@ namespace DataAccessLayer
 
                     model.ID = reader.GetInt32(0);
                     model.media = reader.GetString(1);
-                    model.category_ID = reader.GetInt32(2);
+                    model.title = reader.GetString(2);
+                    model.category_ID = reader.GetInt32(3);
                     Galery.Add(model);
                 }
                 return Galery;
@@ -200,7 +204,7 @@ namespace DataAccessLayer
             List<Galery> Galery = new List<Galery>();
             try
             {
-                cmd.CommandText = "SELECT Media, Title FROM Galery";
+                cmd.CommandText = "SELECT ID,Media, Title, CategoriesID FROM Galery";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
@@ -210,10 +214,39 @@ namespace DataAccessLayer
 
                     model.ID = reader.GetInt32(0);
                     model.media = reader.GetString(1);
-                    model.category_ID = reader.GetInt32(2);
+                    model.title = reader.GetString(2);
+                    model.category_ID = reader.GetInt32(3);
                     Galery.Add(model);
                 }
                 return Galery;
+            }
+            finally { con.Close(); }
+        }
+        public Galery GetImage(int id)
+        {
+            try
+            {
+                cmd.CommandText = "SELECT ID,Media, Title, CategoriesID FROM Galery WHERE ID=@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", id);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Galery model = new Galery();
+                while (reader.Read())
+                {
+
+
+                    model.ID = reader.GetInt32(0);
+                    model.media = reader.GetString(1);
+                    model.title = reader.GetString(2);
+                    model.category_ID = reader.GetInt32(3);
+
+                }
+                return model;
+            }
+            catch
+            {
+                return null;
             }
             finally { con.Close(); }
         }
